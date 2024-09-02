@@ -14,7 +14,34 @@ This Web3 application enables seamless token transfers between the Noble testnet
 
 ## Project Structure
 
-├── generated/ ├── node_modules/ ├── public/ ├── src/ │ ├── components/ │ │ ├── KeplrIntegration/ │ │ │ ├── KeplrDetails.tsx │ │ │ ├── KeplrIntegration.tsx │ │ ├── MetaMaskIntegration/ │ │ │ ├── MetaMaskIntegration.tsx │ │ ├── TransferForm/ │ │ │ ├── TransferForm.tsx │ │ ├── TransferModal/ │ │ ├── TransferModal.tsx │ ├── configs/ │ │ ├── noble-testnet-config.ts │ ├── hooks/ │ │ ├── useUSDCNobleBalance.ts │ │ ├── useUSDCTransfer.ts │ ├── scripts/ │ │ ├── depositForBurn.ts │ │ ├── receiveMessage.ts │ ├── App.tsx │ ├── index.css │ ├── main.tsx │ ├── vite-env.d.ts
+```plaintext
+├── generated/
+├── node_modules/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── KeplrIntegration/
+│   │   │   ├── KeplrDetails.tsx
+│   │   │   └── KeplrIntegration.tsx
+│   │   ├── MetaMaskIntegration/
+│   │   │   └── MetaMaskIntegration.tsx
+│   │   ├── TransferForm/
+│   │   │   └── TransferForm.tsx
+│   │   └── TransferModal/
+│   │       └── TransferModal.tsx
+│   ├── configs/
+│   │   └── noble-testnet-config.ts
+│   ├── hooks/
+│   │   ├── useUSDCNobleBalance.ts
+│   │   └── useUSDCTransfer.ts
+│   ├── scripts/
+│   │   ├── depositForBurn.ts
+│   │   └── receiveMessage.ts
+│   ├── App.tsx
+│   ├── index.css
+│   ├── main.tsx
+│   └── vite-env.d.ts
+
 
 
 ├── generated/
