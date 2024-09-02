@@ -1,14 +1,21 @@
 # Noble-to-Sepolia Token Transfer Web3 Application
 
-Overview
+# Noble-to-Sepolia Token Transfer Web3 Application
 
-This Web3 application is designed to facilitate seamless token transfers between the Noble testnet and the Sepolia network utilizing the Cross-Chain Transfer Protocol (CCTP). By integrating both MetaMask and Keplr wallets, the application ensures a smooth and secure user experience across different blockchain ecosystems.
+## Overview
 
-Features
+This Web3 application enables seamless token transfers between the Noble testnet and the Sepolia network using the Cross-Chain Transfer Protocol (CCTP). It integrates MetaMask and Keplr wallets to provide a smooth and secure user experience across Ethereum and Cosmos-based blockchains.
 
-Cross-Chain Token Transfers: Seamlessly transfer tokens from the Noble testnet to the Sepolia network using CCTP.
-Multi-Wallet Support: Integration with MetaMask and Keplr wallets, allowing users to interact with the application on both Ethereum and Cosmos-based blockchains.
-Secure and Efficient: Built with security and efficiency in mind to ensure a smooth user experience.
+## Features
+
+- **Cross-Chain Token Transfers**: Effortlessly transfer tokens from the Noble testnet to the Sepolia network via CCTP.
+- **Multi-Wallet Support**: Compatibility with MetaMask and Keplr wallets for interaction with both Ethereum and Cosmos-based blockchains.
+- **Secure and Efficient**: Designed with a focus on security and efficiency to ensure a seamless user experience.
+
+## Project Structure
+
+├── generated/ ├── node_modules/ ├── public/ ├── src/ │ ├── components/ │ │ ├── KeplrIntegration/ │ │ │ ├── KeplrDetails.tsx │ │ │ ├── KeplrIntegration.tsx │ │ ├── MetaMaskIntegration/ │ │ │ ├── MetaMaskIntegration.tsx │ │ ├── TransferForm/ │ │ │ ├── TransferForm.tsx │ │ ├── TransferModal/ │ │ ├── TransferModal.tsx │ ├── configs/ │ │ ├── noble-testnet-config.ts │ ├── hooks/ │ │ ├── useUSDCNobleBalance.ts │ │ ├── useUSDCTransfer.ts │ ├── scripts/ │ │ ├── depositForBurn.ts │ │ ├── receiveMessage.ts │ ├── App.tsx │ ├── index.css │ ├── main.tsx │ ├── vite-env.d.ts
+
 
 ├── generated/
 ├── node_modules/
