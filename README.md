@@ -90,4 +90,4 @@ This Web3 application enables seamless token transfers between the Noble testnet
 3. **Monitor Transfer Progress**:
    - The `TransferModal` will display feedback and updates on the status of your transfer.
 
-Enjoy seamless cross-chain token transfers in test networks with our application!
+Enjoy seamless cross-chain token transfers!
